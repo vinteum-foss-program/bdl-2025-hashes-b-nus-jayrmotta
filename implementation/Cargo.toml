@@ -7,6 +7,10 @@ edition = "2021"
 name = "brute_force_collision"
 path = "src/bin/brute_force_collision.rs"
 
+[[bin]]
+name = "brute_force_preimage"
+path = "src/bin/brute_force_preimage.rs"
+
 [dependencies]
 rand = "0.8"
 num_cpus = "1.0"
