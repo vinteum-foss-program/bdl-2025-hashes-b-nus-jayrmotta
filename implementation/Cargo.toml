@@ -1,0 +1,22 @@
+[package]
+name = "brute_force_collision"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "brute_force_collision"
+path = "src/bin/brute_force_collision.rs"
+
+[[bin]]
+name = "brute_force_preimage"
+path = "src/bin/brute_force_preimage.rs"
+
+[[bin]]
+name = "brute_force_sha256_pow"
+path = "src/bin/brute_force_sha256_pow.rs"
+
+[dependencies]
+rand = "0.8"
+num_cpus = "1.0"
+sha2 = "0.10"
+hex = "0.4"

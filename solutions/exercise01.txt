@@ -1,1 +1,1 @@
-bitcoin0,ethereum
+00000000,10101010
